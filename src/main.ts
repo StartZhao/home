@@ -5,7 +5,7 @@ import './style/style.scss'
 
 const app = createApp(App)
 // 设置页面标题
-document.title = import.meta.env.VITE_SITE_TITLE || '菜旺学习'
+document.title = import.meta.env.VITE_SITE_TITLE || '主页'
 // 设置页面图标
 document.querySelector('link[rel="icon"]')?.setAttribute('href', import.meta.env.VITE_SITE_LOGO || '/images/favicon.ico')
 
